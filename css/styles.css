@@ -1,0 +1,32 @@
+:root{
+    --color--background: rgb(13, 100, 107);
+}
+
+#cuerpo {
+    margin:0px;
+    background-color: var(--color--background);
+}
+
+.encabezado {
+    background-color: rgb(186, 142, 115);
+    height: 100px;
+}
+
+#main {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.inicio-sesion {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    border: solid 5px rgb(62, 72, 64);
+    border-radius: 30px;
+    background-color: rgb(255, 210, 181);
+    width: 400px;
+    height: 250px;   
+}
